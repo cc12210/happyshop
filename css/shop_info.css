@@ -1,0 +1,413 @@
+.top_con,
+.logoDivCen,
+.navCon,
+#mainCon,
+.shop_allinfo {
+    margin: 0 auto;
+}
+
+#mainCon {
+    width: 1200px;
+}
+
+.mainCon_top {
+    height: 57px;
+    line-height: 57px;
+    color: #666;
+}
+
+.mainCon_top a {
+    color: #666;
+}
+
+.mainCon_top a:hover {
+    color: #c41f3a;
+}
+
+.mainCon_content {}
+
+.mainCon_shopinfo {
+    height: 524px;
+    /* background: #ccc; */
+}
+
+.shopinfo_l {
+    width: 380px;
+    height: 524px;
+    float: left;
+}
+
+.shopinfo_l_img {
+    width: 380px;
+    height: 380px;
+    background: #504446;
+}
+
+.shopinfo_l_img img {
+    width: 378px;
+    height: 378px;
+    border: 1px solid #e5e5e5;
+}
+
+.shopinfo_l_m {
+    width: 380px;
+    height: 77px;
+    /* background: #51a132; */
+}
+
+.shopinfo_l_m a {
+    float: left;
+    line-height: 77px;
+    font-size: 22px;
+    font-weight: 900px;
+    color: #8c8c8c;
+}
+
+.gra_img {
+    width: 340px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 5px;
+    float: left;
+}
+
+.gra_img li {
+    float: left;
+    margin-right: 10px;
+}
+
+.shopinfo_l_m .gra_active {
+    border: 2px solid #c41f3a;
+}
+
+.gra_img li img {
+    width: 54px;
+    height: 54px;
+    border: 2px solid #fff;
+}
+
+.shopinfo_l_b {
+    height: 40px;
+    padding-top: 25px;
+}
+
+.shopinfo_l_b span {
+    margin-right: 20px;
+    color: #8c8c8c;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.shopinfo_r {
+    width: 560px;
+    height: 518px;
+    float: left;
+    margin-left: 30px;
+}
+
+.detail_tit {
+    height: 42.5px;
+    font-size: 18px;
+    font-weight: normal;
+    padding-top: 10px;
+    color: #303030;
+}
+
+.detail_tit_md {
+    margin-top: 15px;
+    color: #c41f3a;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    overflow: hidden;
+    height: 35px;
+}
+
+.price_wrap {
+    height: 63.5px;
+    padding-bottom: 10px;
+    background: #fefafb;
+    margin-top: 10px;
+    border-bottom: 1px dashed #f0dde1;
+}
+
+.pro_tit {
+    font-size: 14px;
+    color: #666;
+    float: left;
+    min-width: 55px;
+    width: 75px;
+    padding-left: 10px;
+}
+
+.pro_tit_title {
+    margin-top: 28px;
+}
+
+.price_box {
+    width: 420px;
+    height: 62.5px;
+}
+.price_now{
+    font-family: Arial;
+    font-size: 42px;
+    color: #c41f3a;
+}
+.price_old{
+    color: #999;
+    font-size: 14px;
+    padding: 0 18px 0 18px;
+}
+.detail_fre_go{
+    padding: 12px 0;
+    border-bottom: 1px solid #dcdcdc;
+    height: 22px;
+    line-height: 25px;
+}
+.pro_fre{
+    font-size: 14px;
+    color: #333;
+}
+.model_color{
+    padding-top: 10px;
+    height: 40px;
+    line-height: 40px;
+}
+.color_ul{
+    width: 470px;
+    height: 50px;
+    float: left;
+}
+#color_li{
+    float: left;
+    padding: 0 15px;
+    height: 32px;
+    line-height: 32px;
+    border: 2px solid #fff;
+    margin-right: 10px;
+    color: #333;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+}
+.on{
+    border: 2px solid #c41f3a!important;
+}
+.model_count{
+    height: 34px;
+    line-height: 34px;
+    padding: 10px 0 20px 0;
+}
+.count_inp{
+    width: 128px;
+    height: 34px;
+    float: left;
+}
+.count_inp input{
+    width: 60px;
+    height: 32px;
+    text-align: center;
+    float: left;
+    font-size: 20px;
+    border: 1px solid #8c8c8c;
+    border-left: 0;
+    border-right: 0;
+}
+.count_inp a{
+    display: block;
+    width: 32px;
+    height: 32px;
+    float: left;
+    font-size: 20px;
+    line-height: 32px;
+    color: #999;
+    border: 1px solid #8c8c8c;
+    text-align: center;
+}
+.model_car{
+    color: #333;
+}
+.model_car p{
+    font-size: 14px;
+    color: #333;
+}
+.model_car .model_car_btn{
+    height: 40px;
+}
+.model_car_btn a{
+    display: block;
+    width: 136px;
+    height: 36px;
+    border: 2px solid #b51748;
+    color: #fff;
+    line-height: 36px;
+    background: #b51748;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 10px;
+    float: left;
+}
+.model_car .add_car{
+    background: #fff;
+    color: #c41f3a;
+    margin-left: 17px;
+    border: 2px solid #c41f3a;
+}
+.happy_coin{
+    color: #c41f3a;
+}
+.erweima {
+    float: right;
+    width: 200px;
+    height: 211px;
+}
+
+.erweima img {
+    width: 170px;
+    height: 250px;
+    float: right;
+}
+
+/* shop_allinfo */
+.shop_allinfo {
+    width: 1200px;
+    margin-top: 30px;
+    background: rgb(175, 84, 84);
+}
+
+.shop_allinfo_l {
+    width: 198px;
+    float: left;
+    min-height: 300px;
+    border: 1px solid #e5e5e5;
+}
+
+.shop_allinfo_r {
+    width: 976px;
+    float: right;
+    min-height: 300px;
+    border: 1px solid #e5e5e5;
+}
+
+.shop_allinfo_r img {
+    margin: 0 auto;
+    width: 750px;
+}
+
+.hr {
+    padding-top: 35px;
+    margin: 0 auto;
+    width: 900px;
+}
+
+.allinfo_tit {
+    margin: 0 auto;
+    width: 196px;
+    height: 45px;
+    line-height: 45px;
+    text-indent: 15px;
+    color: #333;
+    background: #f6f6f6;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.allinfo_l_con {
+    width: 196px;
+    height: 241px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.allinfo_l_con img {
+    width: 156px;
+    height: 156px;
+    margin: 0 auto;
+}
+
+.allinfo_proname {
+    font-size: 13px;
+    width: 156px;
+    height: 45px;
+    overflow: hidden;
+    color: #333;
+    margin: 10px auto 0;
+}
+
+.allinfo_l_price {
+    font-size: 12px;
+    line-height: 30px;
+    text-indent: 15px;
+}
+
+.goodPrice {
+    font-size: 20px;
+    color: #c41f3a;
+}
+
+.oldPrice {
+    color: #8c8c8c;
+}
+
+.allinfo_r_tit {
+    height: 48px;
+    background: #f6f6f6;
+    line-height: 48px;
+}
+
+.nav_box {
+    width: 842px;
+    height: 48px;
+    float: left;
+}
+
+.nav_box li {
+    float: left;
+}
+
+.nav_box li a {
+    display: block;
+    width: 106px;
+    height: 45px;
+    text-align: center;
+    color: #333;
+}
+
+.nav_line {
+    border-top: 3px solid #c41f3a;
+    border-right: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+    background: #fff;
+}
+
+.shop_siminfo {
+    height: 91px;
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+
+.shop_h2 {
+    height: 36px;
+    border-bottom: 1px solid #ddd;
+}
+
+.shop_h2 h2 {
+    display: block;
+    width: 111px;
+    height: 35px;
+    background: #333;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.shop_simCon {
+    line-height: 55px;
+    text-indent: 15px;
+    color: #333;
+}
+
+.hr {
+    background: #fff !important;
+}

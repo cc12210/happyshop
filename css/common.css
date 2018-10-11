@@ -1,0 +1,261 @@
+@charset 'utf-8';
+
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img,
+input,
+figure,
+figcaption {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+b,
+strong {
+    font-weight: normal;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+a,
+u {
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+    display: block;
+}
+
+input {
+    outline: none;
+}
+
+
+/* top */
+#top {
+    height: 36px;
+    /* overflow: hidden; */
+    background: #FAFAFA;
+    border: 1px solid #DFDFDF;
+}
+
+#top .top_con {
+    width: 1200px;
+    height: 36px;
+    color: #8c8c8c;
+    font-family: "宋体";
+    font-size: 12px;
+    line-height: 36px;
+}
+
+.top_con a {
+    color: #8c8c8c;
+    font-family: "宋体";
+    font-size: 12px;
+}
+
+.top_con a:hover {
+    text-decoration: underline;
+    color: #c41f3a;
+}
+
+#top .top_spc {
+    color: #c41f3a;
+}
+
+.top_con .login {
+    padding: 0 10px 0 20px;
+}
+
+.top_ul {
+    float: right;
+}
+
+.top_ul li {
+    float: left;
+}
+
+.top_ul li a {
+    padding: 0 10px;
+    border-right: 1px solid #8c8c8c;
+}
+
+.top_ul .top_con_last {
+    border: 0;
+}
+
+/* logoDiv */
+#logoDiv {
+    height: 89px;
+    margin-top: 30px;
+    margin-bottom: 19px;
+}
+
+.logoDivCen {
+    height: 89px;
+    width: 1200px;
+}
+
+.logoDivCen img {
+    float: left;
+}
+
+.logo {
+    width: 72px;
+    height: 68px;
+}
+
+.prore {
+    width: 439px;
+    height: 29px;
+    padding-top: 18px;
+}
+
+.search {
+    width: 500px;
+    height: 75px;
+    float: left;
+    margin-left: 5px;
+}
+
+.search a {
+    font-size: 12px;
+    color: #8c8c8c;
+    padding-right: 1px;
+}
+
+.search a:hover {
+    color: #c41f3a;
+}
+
+.searchInp {
+    width: 500px;
+    height: 38px;
+    margin-top: 5px;
+    border: 3px solid #94193f;
+}
+
+.searchBox {
+    width: 387px;
+    height: 21px;
+    border: none;
+    padding: 3px 0;
+    font-size: 12px;
+    padding: 8px 5px;
+    float: left;
+}
+
+.searchBtn {
+    width: 97px;
+    height: 38px;
+    float: right;
+    background-color: #94193f;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.shopCar {
+    width: 110px;
+    height: 39px;
+    background: #f9f9f9;
+    color: #8c8c8c;
+    font-family: "宋体";
+    float: left;
+    margin-left: 30px;
+    cursor: pointer;
+    border: 1px solid #d8d8d8;
+    margin-top: 5px;
+    line-height: 39px;
+    text-align: center;
+}
+
+.shopCar span {
+    font-size: 12px;
+
+}
+
+/* nav */
+#nav {
+    height: 41px;
+    border-bottom: 3px solid #94193f;
+}
+
+.navCon {
+    width: 1200px;
+    height: 41px;
+}
+
+.navCon a {
+    color: #303030;
+}
+
+.navCon li {
+    float: left;
+    display: block;
+    line-height: 39px;
+    padding: 0 30px;
+}
+
+.navSec {
+    width: 155px;
+    height: 41px;
+    background: #94193f;
+    display: block;
+    text-align: center;
+    line-height: 39px;
+}
+
+.navSec a {
+    color: #fff;
+}
+
+.home a {
+    color: #94193f;
+    font-weight: 600;
+}
+
+.navCon a:hover {
+    color: #94193f;
+}
+
+.navCon .home {
+    padding: 0 30px 0 60px;
+}
