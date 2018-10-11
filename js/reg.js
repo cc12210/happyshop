@@ -40,6 +40,7 @@ this.btn.onclick = function () {
                 },
                 success: function (data) {
                     if (data.msg == 201) {
+                        localStorage.setItem('name', _this.username.value);
                         location.href = 'shouye.html';
                     }
                 }

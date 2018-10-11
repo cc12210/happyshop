@@ -12,21 +12,7 @@
 <link rel="stylesheet" href="css/shop_car.css">
 
 <body>
-    <div id="top">
-        <div class="top_con">
-            <span>欢迎来到快乐购</span>
-            <a href="login.html" class="login">登陆</a>
-            <a href="reg.html" class="reg">注册</a>
-            <ul class="top_ul">
-                <li><a href="#">合作招商</a></li>
-                <li><a href="#">订单查询</a></li>
-                <li><a href="#">我的快乐购</a></li>
-                <li>&nbsp;400-705-1111 |</li>
-                <li><a href="#">下载快乐购</a></li>
-                <li><a href="#" class="top_con_last">客服中心</a></li>
-            </ul>
-        </div>
-    </div>
+    <div class="header"></div>
     <div class="shopcar_list">
         <a href="shouye.html">
             <img src="img/logo.jpg" alt="" class="logoimg">
@@ -43,76 +29,14 @@
         </div>
     </div>
     <div class="hr"></div>
-    <div id="footer">
-        <div class="footer_adv">
-            <img src="img/foot_img1.jpg" alt="">
-        </div>
-        <div class="footer_nav">
-            <div class="footer_navl">
-                <ul>
-                    <li>使用帮助</li>
-                    <li>税收收取规则</li>
-                    <li>新手指南</li>
-                    <li>用户协议</li>
-                    <li>常见问题</li>
-                </ul>
-                <ul>
-                    <li>使用帮助</li>
-                    <li>税收收取规则</li>
-                    <li>新手指南</li>
-                    <li>用户协议</li>
-                    <li>常见问题</li>
-                </ul>
-                <ul>
-                    <li>使用帮助</li>
-                    <li>税收收取规则</li>
-                    <li>新手指南</li>
-                    <li>用户协议</li>
-                    <li>常见问题</li>
-                </ul>
-                <ul>
-                    <li>使用帮助</li>
-                    <li>税收收取规则</li>
-                    <li>新手指南</li>
-                    <li>用户协议</li>
-                    <li>常见问题</li>
-                </ul>
-            </div>
-            <div class="footer_navr">
-                <li>
-                    <p>手机快乐购</p>
-                    <img src="img/footer_ewm_01.png" alt="">
-                    <p>下载移动端</p>
-                </li>
-                <li>
-                    <p>快乐购微信</p>
-                    <img src="img/footer_ewm_02.png" alt="">
-                    <p>快乐购官方微信</p>
-                </li>
-            </div>
-        </div>
-        <div class="footer_about">
-            <ul>
-                <li><a href="">关于芒果超媒</a></li>
-                <li><a href="">投资者关系</a></li>
-                <li><a href="">自营品牌招商</a></li>
-                <li><a href="">联系我们</a></li>
-                <li><a href="">营业执照</a></li>
-            </ul>
-        </div>
-        <p class="footer_info"><span class="font_arial">Copyright© 2006-2018 happigo. All Rights Reserved </span>
-            免费服务热线: 400-705-1111 | 固话也可拨打: 400-705-8800
-            <span class="font_arial">E-Mail: service@happigo.com</span>
-            <br>
-            湘ICP备17009657号 信息网络传播视听节目许可证号：1810530 湘公网安备 43010502000556号
-        </p>
-        <div class="footerP">
-            <img src="img/hy_124x47.png" alt="" class="footer_first">
-            <img src="img/brand_bottom_small.jpg" alt="">
-            <img src="img/footer_shuidi.png" alt="">
-            <img src="img/footer_img4.png" alt="">
-        </div>
-    </div>
+    <div class="footer"></div>
 </body>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".header").load("common.html #top")
+        $(".footer").load("common.html #footer");
+    });
+</script>
 
 </html>

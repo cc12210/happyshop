@@ -13,6 +13,7 @@ this.btn.onclick = function () {
             },
             success: function (data) {
                 if (data.msg == 200) {
+                    localStorage.setItem('name', username.value);
                     location.href = 'shouye.html';
                 } else if (data.msg == 1000) {
                     document.querySelector('.errorInfo').innerHTML = '账号或密码有误';
