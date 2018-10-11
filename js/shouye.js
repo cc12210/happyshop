@@ -53,7 +53,6 @@ var swiper = (function () {
             }
             this.banner.onmouseleave = function () {
                 _this.autoplay();
-                
             }
         }
     }
