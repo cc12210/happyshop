@@ -52,7 +52,7 @@
     left: 0;
 }
 
-.big_img{
+.big_img {
     width: 380px;
     height: 380px;
     background: #fff;
@@ -62,7 +62,8 @@
     display: none;
     overflow: hidden;
 }
-.shopinfo_l_img .big_img img{
+
+.shopinfo_l_img .big_img img {
     width: 760px;
     height: 760px;
     position: absolute;
@@ -287,6 +288,14 @@
     text-align: center;
     margin-left: 10px;
     float: left;
+}
+
+.count_shop::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.count_shop::-webkit-outer-spin-outer {
+    -webkit-appearance: none;
 }
 
 .model_car .add_car {
