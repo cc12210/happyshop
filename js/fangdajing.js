@@ -7,8 +7,8 @@ mainBox.on('mouseenter', function () {
     bigBox.show();
 });
 mainBox.mousemove(function (ev) {
-    var x = ev.clientX,
-        y = ev.clientY,
+    var x = ev.pageX,
+        y = ev.pageY,
         _x = mainBox.offset().left,
         _y = mainBox.offset().top;
     var mx = x - _x,
