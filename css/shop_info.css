@@ -38,7 +38,6 @@
 .shopinfo_l_img {
     width: 380px;
     height: 380px;
-    background: #504446;
     position: relative;
 }
 
@@ -56,7 +55,7 @@
 .big_img{
     width: 380px;
     height: 380px;
-    background: #cf6d8c;
+    background: #fff;
     position: absolute;
     left: 390px;
     top: 0;
@@ -100,6 +99,7 @@
 .gra_img li {
     float: left;
     margin-right: 10px;
+    border: 2px solid #fff;
 }
 
 .shopinfo_l_m .gra_active {
@@ -109,7 +109,6 @@
 .gra_img li img {
     width: 54px;
     height: 54px;
-    border: 2px solid #fff;
 }
 
 .shopinfo_l_b {
