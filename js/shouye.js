@@ -31,7 +31,7 @@ var swiper = (function () {
             var _this = this;
             this.timer = setInterval(function () {
                 _this.nextplay();
-            }, 3000);
+            }, 2000);
         },
         nextplay: function () {
             var _this = this;
