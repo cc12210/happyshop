@@ -25,10 +25,17 @@ count.on('input', function () {
     }
 });
 add_car.click(function () {
-    var shop_name = $('.detail_tit').html(),
-        new_price = $('.price_now').html(),
+    var shop_name = $.trim($('.detail_tit').html()),
+        new_price = $('.price_now_num').html(),
         my_count = count.val();
-        var arr= [new_price,my_count];
-    window.localStorage.setItem(shop_name, arr);
-    console.log(window.localStorage.getItem(shop_name));
+    var obj = {
+        "shop_name":shop_name,
+        "price":new_price,
+        "count":my_count
+    }
+    obj = JSON.stringify(obj);
+    window.localStorage.setItem("shop", obj);
+    var newObj = window.localStorage.getItem("shop");
+    newObj = JSON.parse(newObj);
+    console.log(newObj);
 });
