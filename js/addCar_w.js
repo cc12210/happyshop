@@ -51,6 +51,6 @@ count.on('input', function () {
     window.localStorage.setItem('shop', newCount);
 });
 clear_shop.click(function () {
-    window.localStorage.clear();
+    window.localStorage.removeItem('shop');
     location.href = "shopcar.html";
 })
