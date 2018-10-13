@@ -1,7 +1,8 @@
 var add_btn = $('.add_btn_w'),
     re_btn = $('.re_btn_w'),
     count = $('.count_shop_w'),
-    want_price = $('.want_price');
+    want_price = $('.want_price'),
+    clear_shop = $('.clearShop');
 add_btn.click(function () {
     if (count.val() == "") {
         count.val(1);
@@ -49,3 +50,7 @@ count.on('input', function () {
     newCount = JSON.stringify(newCount);
     window.localStorage.setItem('shop', newCount);
 });
+clear_shop.click(function () {
+    window.localStorage.clear();
+    location.href = "shopcar.html";
+})
