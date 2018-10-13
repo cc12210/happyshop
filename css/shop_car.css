@@ -1,46 +1,54 @@
-.shopcar_list{
+.shopcar_list {
     width: 1200px;
     height: 100px;
     margin: 30px auto 19px;
 }
-.logoimg{
+
+.logoimg {
     width: 72px;
     height: 68px;
     float: left;
 }
-.shopliu{
+
+.shopliu {
     float: right;
     margin-top: 40px;
     width: 415px;
     height: 42px;
 }
-.my_shop_car{
+
+.my_shop_car {
     width: 1200px;
     min-height: 350px;
     margin: 0 auto;
     border-top: 2px solid #e6e6e5;
     border-bottom: 2px solid #e6e6e5;
 }
-.no_shop{
+
+.no_shop {
     width: 700px;
     margin: 0 auto;
     padding-top: 40px;
 }
-.no_shop img{
+
+.no_shop img {
     float: left;
 }
-.no_shop_tit{
+
+.no_shop_tit {
     float: left;
     width: 390px;
     height: 175px;
     text-align: center;
 }
-.no_shop_tit p{
+
+.no_shop_tit p {
     padding-top: 65px;
     font-size: 16px;
     color: #000;
 }
-.no_shop_tit a{
+
+.no_shop_tit a {
     display: block;
     width: 190px;
     height: 49px;
@@ -50,6 +58,189 @@
     margin-left: 79px;
     margin-top: 35px;
 }
-.no_shop_tit a:hover{
+
+.no_shop_tit a:hover {
     color: #d93600;
+}
+
+.has_shop_tit {
+    height: 35px;
+    margin-top: 20px;
+    background: #efefef;
+    font-family: "宋体";
+    border: 1px solid #dadada;
+}
+
+.has_shop_tit div {
+    float: left;
+    text-align: center;
+    line-height: 35px;
+    color: #666;
+}
+
+.has_shop_tit .car_checkbox {
+    width: 550px;
+    color: #000;
+    text-align: left;
+    padding-left: 12px;
+}
+
+.car_checkbox span {
+    display: inline-block;
+}
+
+.shop_s_name {
+    padding-left: 100px;
+}
+
+.single_price {
+    width: 165px;
+}
+
+.shop_count {
+    width: 115px;
+    padding: 0 50px;
+}
+
+.all_price {
+    width: 150px;
+}
+
+.dete_shop {
+    width: 95px;
+}
+
+.has_shop_mai {
+    padding: 19px 0 10px 12px;
+    border-bottom: 2px solid #b2b2b2;
+    height: 16px;
+    width: 1180px;
+    line-height: 16px;
+}
+
+.has_shop_mai input {
+    float: left;
+}
+
+.has_shop_mai .myshop {
+    color: #fff;
+    width: 40px;
+    height: 16px;
+    text-align: center;
+    line-height: 16px;
+    font-size: 12px;
+    margin-left: 10px;
+    display: block;
+    border-radius: 10px;
+    float: left;
+    background: #e60012;
+}
+
+.happ_go {
+    float: left;
+    color: #000;
+    margin-left: 15px;
+}
+
+.good_news {
+    float: right;
+    color: #666;
+    font-size: 14px;
+}
+
+.car_item {
+    height: 116px;
+    width: 1200px;
+    color: #333;
+    border-bottom: 1px solid #8c8c8c;
+}
+
+.car_item div {
+    float: left;
+}
+
+.cell {
+    padding: 18px 0;
+}
+
+.cell_input {
+    padding-top: 57px;
+    text-align: center;
+    width: 50px;
+}
+
+.want_shop {
+    width: 523px;
+    height: 80px;
+}
+.want_shop_img{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+.want_shop_info{
+    width: 420px;
+    height: 80px;
+    margin-left: 15px;
+    font-size: 14px;
+    float: left;
+}
+.single_price_w{
+    width: 165px;
+    text-align: center;
+}
+.count_w{
+    width: 200px;
+    height: 116px;
+}
+.count_w a{
+    color: #000;
+}
+.count_all_w{
+    width: 150px;
+    text-align: center;
+}
+.re_btn_w{
+    display: block;
+    width: 22px;
+    height: 25px;
+    line-height: 25px;
+    float: left;
+    border: 1px solid #666;
+}
+.add_btn_w{
+    display: block;
+    width: 22px;
+    height: 25px;
+    line-height: 25px;
+    float: left;
+    border: 1px solid #666;
+}
+.count_inp_w{
+    margin-top: 20px;
+    margin-left: 60px;
+    font-size: 25px;
+}
+.count_shop_w{
+    width: 50px;
+    height: 25px;
+    float: left;
+    text-align: center;
+    border: 1px solid #666;
+}
+.dis_want{
+    width: 95px;
+    text-align: center;
+}
+.dis_want a{
+    color: #666;
+}
+.dis_want a:hover{
+    color: #c41f3a;
+}
+.count_all_w{
+    color: #c41f3a;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    font-weight: 600;
 }

@@ -1,6 +1,7 @@
 var add_car = $('.add_car'),
     add_btn = $('.add_btn'),
     re_btn = $('.re_btn'),
+    imgSrc = $('.showImg'),
     count = $('.count_shop');
 add_btn.click(function () {
     if (count.val() == "") {
@@ -31,11 +32,13 @@ add_car.click(function () {
     var obj = {
         "shop_name":shop_name,
         "price":new_price,
-        "count":my_count
+        "count":my_count,
+        "img":imgSrc[0].src
     }
     obj = JSON.stringify(obj);
     window.localStorage.setItem("shop", obj);
     var newObj = window.localStorage.getItem("shop");
     newObj = JSON.parse(newObj);
     console.log(newObj);
+    alert('添加成功,快去购物车页面结算吧');
 });
